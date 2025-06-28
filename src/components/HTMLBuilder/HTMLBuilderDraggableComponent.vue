@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { useDraggable } from '@vue-dnd-kit/core';
-  import { CSSProperties } from 'vue';
+  import type { CSSProperties } from 'vue';
 
   const props = defineProps<{
     tag: keyof HTMLElementTagNameMap;

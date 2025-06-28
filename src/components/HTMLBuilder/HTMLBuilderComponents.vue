@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import HTMLBuilderDraggableComponent from './HTMLBuilderDraggableComponent.vue';
-  import { IHTMLBuilderDraggable } from './types';
+  import type { IHTMLBuilderDraggable } from './types';
 
   const availableTags: IHTMLBuilderDraggable[] = [
     {

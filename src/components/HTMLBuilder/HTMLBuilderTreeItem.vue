@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { useDnDStore, useDraggable } from '@vue-dnd-kit/core';
   import { computed } from 'vue';
-  import { IHTMLBuilderElement } from './types';
+  import type { IHTMLBuilderElement } from './types';
   import HTMLBuilderTree from './HTMLBuilderTree.vue';
   import { useHTMLBuilderStore } from './utils';
 
